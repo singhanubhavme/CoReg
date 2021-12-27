@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") -%>
+    <div class="heading">
+        <h1>Remove Pincode From Tracking</h1>
+    </div>
+    <div class="form-main">
+        <div class="main-form">
+        <form class="flex-form" action="/delete" method="post">
+            <input type="email" placeholder="Enter your email" name="email" id="email">
+            <input type="number" placeholder="Enter pincode to delete" name="pincode" id="pincode">
+            <button class="main-btn" type="submit" >Submit</button>
+        </form>
+    </div>
+</div>
+<%- include("partials/footer.ejs") -%>

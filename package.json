@@ -1,0 +1,31 @@
+{
+  "name": "coreg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "event-stream": "^4.0.1",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "jsonstream": "^1.0.3",
+    "mongoose": "^5.13.5",
+    "nodemailer": "^6.6.3",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakeanubhav/vaccine-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakeanubhav/vaccine-finder/issues"
+  },
+  "homepage": "https://github.com/fakeanubhav/vaccine-finder#readme"
+}

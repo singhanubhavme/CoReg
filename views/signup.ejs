@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") -%>
+    <div class="heading">
+        <h1>Sign Up</h1>
+    </div>
+    <div class="form-main">
+        <div class="main-form">
+        <form class="flex-form" action="/signup" method="post">
+            <input type="text" placeholder="Enter secret code" name="secret" id="secret">
+            <input type="text" placeholder="Enter your name" name="fname" id="fname">            
+            <input type="email" placeholder="Enter your email" name="email" id="email">
+            <input type="number" placeholder="Enter pincode to track" name="pincode" id="pincode">
+            <button class="main-btn" type="submit" >Submit</button>
+        </form>
+    </div>
+</div>
+<%- include("partials/footer.ejs") -%>

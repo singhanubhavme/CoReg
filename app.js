@@ -5,7 +5,6 @@ const https = require("https");
 const app = express();
 let nodemailer = require('nodemailer');
 app.set('view engine', 'ejs');
-
 let request = require('request');
 let JSONStream = require('JSONStream');
 let es = require('event-stream');
